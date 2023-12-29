@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-22T14:02:01 IST" name="opencartSuite" finished-at="2023-12-22T14:02:29 IST" duration-ms="28015">
+    <groups>
+    </groups>
+    <test started-at="2023-12-22T14:02:01 IST" name="opencartTest" finished-at="2023-12-22T14:02:29 IST" duration-ms="28015">
+      <class name="testCases.TC01_LoginOrangeHRM">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC01_LoginOrangeHRM@4be29ed9]" started-at="2023-12-22T14:02:02 IST" name="setup" finished-at="2023-12-22T14:02:18 IST" duration-ms="16075" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logintest()[pri:0, instance:testCases.TC01_LoginOrangeHRM@4be29ed9]" started-at="2023-12-22T14:02:18 IST" name="logintest" finished-at="2023-12-22T14:02:26 IST" duration-ms="8759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC01_LoginOrangeHRM@4be29ed9]" started-at="2023-12-22T14:02:27 IST" name="tearDown" finished-at="2023-12-22T14:02:29 IST" duration-ms="1434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC01_LoginOrangeHRM -->
+    </test> <!-- opencartTest -->
+  </suite> <!-- opencartSuite -->
+</testng-results>
